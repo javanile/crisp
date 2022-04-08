@@ -27,8 +27,8 @@ input, textarea {
   width: calc(100% - 14px);
 }
 
-textarea {
-  font-size: 14px;
+pre, textarea {
+  font-size: 15px;
 }
 
 select {
@@ -52,7 +52,6 @@ button {
 }
 
 pre {
-  font-size: 15px;
   border: 1px solid #cccccc;
 }
 
@@ -73,4 +72,8 @@ section {
 
 figcaption {
   color: #999999;
+}
+
+blockquote {
+  border-left: 4px solid #ccc;
 }
