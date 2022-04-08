@@ -3,11 +3,11 @@
   "version": "0.8.0",
   "description": "Simple and Plain Stylesheet",
   "files": [
-    "crisp.css",
-    "crisp.min.css"
+    "css/crisp.css",
+    "css/crisp.min.css"
   ],
-  "jsdelivr": "crisp.css",
-  "unpkg": "crisp.css",
+  "jsdelivr": "css/crisp.css",
+  "unpkg": "css/crisp.css",
   "keywords": [
     "css",
     "stylesheet",
