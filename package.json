@@ -25,9 +25,8 @@
     "csso-cli": "latest"
   },
   "scripts": {
-    "postinstall": "cp node_modules/spcss/sp.css scss/sp.scss",
     "build": "npm-run-all css min",
-    "css": "sass scss/crisp.scss crisp.css",
+    "css": "sass css/crisp.scss crisp.css",
     "min": "csso crisp.css -o crisp.min.css"
   }
 }
