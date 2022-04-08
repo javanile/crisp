@@ -183,6 +183,9 @@ button {
   background: #f2f2f2;
   padding: 4px 32px;
 }
+button:active {
+  background: #dddddd;
+}
 
 pre {
   font-size: 15px;
@@ -202,6 +205,10 @@ section {
   border: 2px dashed #cccccc;
   background: #f2f2f2;
   padding: 1em;
+}
+
+figcaption {
+  color: #999999;
 }
 
 /*# sourceMappingURL=crisp.css.map */

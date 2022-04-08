@@ -45,6 +45,10 @@ button {
   border-radius: 4px;
   background: #f2f2f2;
   padding: 4px 32px;
+
+  &:active {
+    background: #dddddd;
+  }
 }
 
 pre {
@@ -65,4 +69,8 @@ section {
   border: 2px dashed #cccccc;
   background: #f2f2f2;
   padding: 1em;
+}
+
+figcaption {
+  color: #999999;
 }
