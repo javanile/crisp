@@ -1,5 +1,5 @@
 {
-  "name": "crisp",
+  "name": "css-crisp",
   "version": "0.8.0",
   "description": "Simple and Plain Stylesheet",
   "files": [
@@ -26,7 +26,7 @@
   },
   "scripts": {
     "build": "npm-run-all css min",
-    "css": "sass css/crisp.scss crisp.css",
-    "min": "csso crisp.css -o crisp.min.css"
+    "css": "sass css/crisp.scss css/crisp.css",
+    "min": "csso css/crisp.css -o css/crisp.min.css"
   }
 }

@@ -1,7 +1,7 @@
 Crisp
 =====
 
-> This project is proudly inspire by [SPCSS](https://github.com/susam/spcss). 
+> This project is proudly inspired by [SPCSS](https://github.com/susam/spcss). 
 > Thanks to [@susam](https://github.com/susam) for the brilliant work.
 
 Crisp is a simple and plain stylesheet for simple text-based websites.
