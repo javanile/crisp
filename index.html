@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>SPCSS Demo</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="sp.css">
+</head>
+<body>
+<h1>SPCSS Demo</h1>
+<p>
+  SPCSS is a simple and minimal stylesheet for simple text-based
+  websites. To learn more about it and how to use it, visit <a
+  href="https://github.com/susam/spcss">github.com/susam/spcss</a>.
+</p>
+<p>
+  This page demonstrates how some common HTML elements are styled with
+  this stylesheet.
+</p>
+<h2 id="code-block">Code Block<a href="#code-block"></a></h2>
+<p>
+  Here is a code block that displays the famous "hello, world" program
+  written in C:
+</p>
+<pre>
+<code>#include &lt;stdio.h&gt;
+
+int main()
+{
+    printf("hello, world\n");
+    return 0;
+}</code>
+</pre>
+<p>
+  On a Unix or Unix-like system, this program can be compiled to a
+  binary executable with the following command:
+</p>
+<pre>
+<samp>$ <kbd>cc hello.c &amp;&amp; ./a.out</kbd>
+hello, world</samp>
+</pre>
+<p>
+  The command displayed in green above denotes keyboard input entered by
+  a user. SPCSS shows any <code>&lt;kbd&gt;</code> element nested within
+  a <code>&lt;pre&gt;</code> in green in order to highlight keyboard
+  input. For example, the above code example was created with the
+  following HTML code:
+</p>
+<pre>
+<code>&lt;pre&gt;
+&lt;samp&gt;$ &lt;kbd&gt;cc hello.c &amp;amp;&amp;amp; ./a.out&lt;/kbd&gt;
+hello, world&lt;/samp&gt;
+&lt;/pre&gt;</code>
+</pre>
+<p>
+  Here is a code block with a wide ruler that can be helpful to see how
+  much horizontal and vertical space a certain amount of code consumes:
+</p>
+<pre>
+<code>1---5---10---15---20---25---30---35---40---45---50---55---60---65---70---75---80---85---90---95--100--105--110--115--120--125--130--135--140--145--150--155--160--165--170--175--180--185--190--195--200--205--210--215--220--225--230--235--240--245--250--255--260--265--270--275--280--285--290--295--300
+2
+3
+4
+5
+6
+7
+8</code>
+</pre>
+<p>
+  Since the above code block is too wide to fit within the width of the
+  HTML body, SPCSS makes it horizontally scrollable.
+</p>
+<h2 id="blockquote">Blockquote<a href="#blockquote"></a></h2>
+<p>
+  This section shows a few examples of the
+  <code>&lt;blockquote&gt;</code> element.
+</p>
+<p>
+  In a letter to Robert Hooke in 1675, Issac Newton famously wrote,
+</p>
+<blockquote>
+  If I have seen further it is by standing on the shoulders of giants.
+</blockquote>
+<p>
+  In a later memoir, Newton wrote:
+</p>
+<blockquote>
+  I do not know what I may appear to the world, but to myself I seem to
+  have been only like a boy playing on the sea-shore, and diverting
+  myself in now and then finding a smoother pebble or a prettier shell
+  than ordinary, whilst the great ocean of truth lay all undiscovered
+  before me.
+</blockquote>
+<p>
+  To read more about Newton, see the
+  <a href="https://en.wikipedia.org/wiki/Isaac_Newton">Wikipedia entry
+  on Issac Newton</a>.
+</p>
+<h2 id="image">Image<a href="#image"></a></h2>
+<p>
+  This section shows an example of <code>&lt;img&gt;</code> nested
+  within a <code>&lt;figure&gt;</code> element. The caption is created
+  with <code>&lt;figcaption&gt;</code> within the same
+  <code>&lt;figure&gt;</code> element.
+</p>
+<figure>
+  <a href="https://i.imgur.com/UrJrpo1.png"><img
+      src="https://i.imgur.com/UrJrpo1.png"
+       alt="Screenshot of Digger original PC booter version"></a>
+  <figcaption>
+    Digger original PC booter version running in DOSBox
+  </figcaption>
+</figure>
+<p>
+  SPCSS styles the <code>&lt;figure&gt;</code> element to center-align
+  all its content. That is why the caption appears centered. The font
+  size of the caption is made smaller. The original width of the image
+  above exceeds the width of the HTML body, however SPCSS ensures that
+  the rendered width of any image on the page does not exceed the width
+  of the HTML body. This prevents the page layout from appearing broken.
+</p>
+<h2 id="table">Table<a href="#table"></a></h2>
+<p>
+  This section shows an example of an HTML table.
+</p>
+<table>
+  <tr>
+    <th>Editor</th>
+    <th>Creator</th>
+    <th>License</th>
+    <th>First Release</th>
+  </tr>
+  <tr>
+    <td>GNU Emacs</td>
+    <td>Richard Stallman</td>
+    <td>GNU GPLv3+</td>
+    <td>20 Mar 1985</td>
+  </tr>
+  <tr>
+    <td>Vim</td>
+    <td>Bram Moolenaar</td>
+    <td>Vim License</td>
+    <td>02 Nov 1991</td>
+  </tr>
+  <tr>
+    <td>GNU nano</td>
+    <td>Chris Allegretta</td>
+    <td>GNU GPLv3</td>
+    <td>18 Nov 1999</td>
+  </tr>
+  <tr>
+    <td>Notepad++</td>
+    <td>Don Ho</td>
+    <td>GNU GPLv2</td>
+    <td>24 Nov 2003</td>
+  </tr>
+  <tr>
+    <td>Atom</td>
+    <td>GitHub</td>
+    <td>MIT</td>
+    <td>26 Feb 2014</td>
+  </tr>
+  <tr>
+    <td>Visual Studio Code</td>
+    <td>Microsoft</td>
+    <td>MIT</td>
+    <td>29 Apr 2015</td>
+  </tr>
+</table>
+<h2 id="heading-anchor">Heading Anchor<a href="#heading-anchor"></a></h2>
+<p>
+  When you hover your cursor (mouse pointer) on the section heading
+  above, a hash sign appears to its right. This is a heading anchor
+  link. Heading anchor links are useful for sharing direct links to
+  sections of a web page.
+</p>
+<p>
+  Heading anchor links are enabled with a special feature of SPCSS: If a
+  heading element contains an empty anchor element, SPCSS turns that
+  into an anchor link that becomes visible while hovering the cursor on
+  the heading. For example, the above heading is created with the
+  following HTML code:
+</p>
+<pre>
+<code>&lt;h2 id="heading-anchor"&gt;Heading Anchor&lt;a href="#heading-anchor"&gt;&lt;/a&gt;&lt;/h2&gt;</code>
+</pre>
+<p>
+  If a heading element does not have an empty anchor element within it,
+  then no heading anchor link is created. For example, the top-level
+  heading of this page does not have an empty anchor element, so it is
+  rendered as a plain heading without an anchor link.
+</p>
+<h2 id="more">More<a href="#more"></a></h2>
+<p>
+  Apart from the features described above, SPCSS has the following
+  additional features:
+</p>
+<ul>
+  <li>
+    Support for dark color theme. By default, this page shows dark text
+    on light background. However, on a system or web browser with dark
+    theme enabled, SPCSS automatically selects light foreground colors
+    on a dark background.
+  </li>
+  <li>
+    Maximum width for the HTML body in order to prevent the lines of
+    text from becoming too long. Shorter lines are easier to read.
+  </li>
+  <li>
+    In light mode, the text color is dark gray (<code>#333</code>)
+    instead of black (<code>#000</code>). This reduces the contrast a
+    little bit which some people find more pleasant.
+  </li>
+  <li>
+    Increased line-height to add more room around the lines.
+  </li>
+  <li>
+    More margin above headings to separate them more conspicuously from
+    preceding content.
+  </li>
+  <li>
+    Less margin below headings as well as less line-height for margins
+    to associate them more tightly with succeeding content.
+  </li>
+</ul>
+<h2 id="about-this-demo">About This Demo<a href="#about-this-demo"></a></h2>
+<p>
+  This is a demo of SPCSS. To learn more about SPCSS and how to use it,
+  visit <a href="https://github.com/susam/spcss">github.com/susam/spcss</a>.
+</p>
+</body>
+</html>
