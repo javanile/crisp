@@ -1,10 +1,9 @@
+<div align="center">
+
 Crisp
 =====
 
-> This project is proudly inspired by [SPCSS](https://github.com/susam/spcss). 
-> Thanks to [@susam](https://github.com/susam) for the brilliant work.
-
-Crisp is a simple and plain stylesheet for simple text-based websites.
+Very simple and plain stylesheet
 
 [![View Demo][Demo SVG]][Demo URL]
 [![View CSS][CSS SVG]][CSS URL]
@@ -31,9 +30,15 @@ Crisp is a simple and plain stylesheet for simple text-based websites.
 [Twitter SVG]: https://img.shields.io/badge/twitter-%40susam-%231da1f2
 [Twitter URL]: https://twitter.com/susam
 
+</div>
 
 Contents
 --------
+
+> This project is proudly inspired by [SPCSS](https://github.com/susam/spcss).
+> Thanks to [@susam](https://github.com/susam) for the brilliant work.
+
+Crisp is a simple and plain stylesheet for simple text-based websites.
 
 * [Demo](#demo)
 * [Use SPCSS](#use-spcss)
