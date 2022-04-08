@@ -160,6 +160,10 @@ input, textarea {
   width: calc(100% - 14px);
 }
 
+textarea {
+  font-size: 14px;
+}
+
 select {
   width: 100%;
   padding: 3px 1px;
