@@ -143,6 +143,10 @@ body {
   font-size: 16px;
 }
 
+a > img {
+  vertical-align: middle;
+}
+
 input, textarea, select {
   border: 2px solid #cccccc;
   background: #ffffff;
