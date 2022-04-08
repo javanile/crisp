@@ -26,6 +26,7 @@
   },
   "scripts": {
     "build": "npm-run-all css min",
+    "watch": "sass --watch css/crisp.scss css/crisp.css",
     "css": "sass css/crisp.scss css/crisp.css",
     "min": "csso css/crisp.css -o css/crisp.min.css"
   }
