@@ -102,39 +102,30 @@ th, td {
     background: #111;
     color: #bbb;
   }
-
   a:link {
     color: #9bf;
   }
-
   a:visited {
     color: #caf;
   }
-
   a:focus, a:hover {
     color: #9cf;
   }
-
   a:active {
     color: #faa;
   }
-
   pre, code, samp, kbd {
     color: #6cf;
   }
-
   pre kbd {
     color: #9c6;
   }
-
   pre, blockquote {
     background: #000;
   }
-
   blockquote {
     border-color: #333;
   }
-
   th, td {
     border-color: #666;
   }
@@ -160,7 +151,7 @@ input:focus, textarea:focus, select:focus {
 }
 
 input, textarea {
-  padding: 4px 5px;
+  padding: 5px 5px;
   width: calc(100% - 14px);
 }
 
@@ -170,7 +161,7 @@ pre, textarea {
 
 select {
   width: 100%;
-  padding: 3px 1px;
+  padding: 5px 1px;
 }
 
 input, select, button {
@@ -195,24 +186,47 @@ pre, code, samp, kbd {
   color: #555555;
 }
 
+@media (prefers-color-scheme: dark) {
+  pre, code, samp, kbd {
+    color: #555555 !important;
+  }
+}
 pre, blockquote {
   background: #f2f2f2;
   padding: 0.5em 0.75em 0.6em 0.75em;
 }
 
+@media (prefers-color-scheme: dark) {
+  pre, blockquote {
+    color: #555555;
+    background: #d2d2d2;
+  }
+}
 section {
   border-radius: 8px;
-  border: 2px dashed #cccccc;
+  border: 2px dashed #aaaaaa;
   background: #f2f2f2;
-  padding: 1em;
+  padding: 0.9em 1.2em;
 }
 
+@media (prefers-color-scheme: dark) {
+  section {
+    color: #555555;
+    background: #d2d2d2;
+  }
+}
 figcaption {
   color: #999999;
 }
 
 blockquote {
   border-left: 4px solid #ccc;
+}
+
+@media (prefers-color-scheme: dark) {
+  input, textarea, select {
+    background: #d2d2d2;
+  }
 }
 
 /*# sourceMappingURL=crisp.css.map */
