@@ -178,6 +178,14 @@ button:active {
   background: #dddddd;
 }
 
+@media (prefers-color-scheme: dark) {
+  button {
+    background: #e2e2e2;
+  }
+  button:active {
+    background: #d2d2d2;
+  }
+}
 pre {
   border: 1px solid #cccccc;
 }
